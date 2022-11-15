@@ -143,12 +143,23 @@ font-weight: 400;
 .watch{
     background: url(/images/hero/watch/watch_large.jpg);
 }
+.ipad{
+    background: url(/images/carousel/ipad-large.jpg)   ;
+    
+}
 
 .title-heading-watch{
     height: 7.8rem;
     background: url(/images/hero/watch/logo_watch_large.png) center no-repeat;
     background-size: auto 7.8rem;
     margin-top: 1.6rem;
+}
+
+.title-heading-ipad{
+    height: 7.8rem;
+    background: url(/images/carousel/ipad-apple-logo.png) center no-repeat;
+    background-size: auto 7.8rem;
+    margin-top: 1rem;
 }
 
 .hero{
@@ -166,6 +177,39 @@ font-weight: 400;
     border-top: none;
 }
 
+hr{
+    margin: 10px auto;
+}
+
+.foot{
+    background-color: rgba(170, 187, 204, 0.3);
+    font-size: 1.2rem;
+    font-stretch: narrower;
+    
+}
+.footer-container{
+    margin:  1rem 20%;
+}
+
+.shop a{
+    display: inline;
+}
+
+
+
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.privacy{
+    display: flex;
+    justify-content: space-around;
+}
+.privacy div{
+    margin: auto 10px;
+}
 
 @media screen and (max-width : 1068px){
     .iphone-14-pro{
@@ -179,6 +223,7 @@ font-weight: 400;
     .watch{
         background: url(/images/hero/watch/watch_medium.jpg);
     }
+   
 
     .hero{
         height: 65rem;
@@ -198,7 +243,7 @@ font-weight: 400;
     .cta-link:nth-child(2){
         margin-left: 2rem;
     }
-    
+
     .title-heading-watch{
         height: 6.2rem;
         background: url(/images/hero/watch/logo_watch_medium.png) center no-repeat;
@@ -286,3 +331,66 @@ font-weight: 400;
         transition: transform 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96);
     }
 }
+
+@media screen and (max-width : 735px){
+    .iphone-14-pro{
+        background: url(/images/hero/iphone-11-pro/iphone_11_pro_small.jpg);
+    }
+
+    .iphone-14{
+        background: url(/images/hero/iphone-11/iphone_11_small.jpg);
+    }
+
+    .watch{
+        background: url(/images/hero/watch/watch_small.jpg);
+    }
+    
+    .her{
+        height : 50rem;
+        background-size: auto 54.8rem ;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+
+    .title {
+        padding-top: 3.7rem;
+    }
+
+    .title-heading{
+        font-size: 3.2rem;
+    }
+
+    .title-sub-heading{
+        font-size: 1.9rem;
+    }
+
+    .title-heading-watch{
+        margin-top: -0.5rem;
+        margin-bottom: 0;       
+    }
+
+    .title-price{
+        font-size: 1.4rem;
+
+    }
+    .title-price-dark{
+        color: #000;;
+
+    }
+
+    .cta{
+        margin-top: 0.7rem;
+    }
+
+    .cta-link{
+        font-style: 1.9 rem;
+    }
+
+    
+}
+
+
+script{
+    display: none;
+}
+
