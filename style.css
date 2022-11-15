@@ -373,10 +373,13 @@ hr{
         font-size: 1.4rem;
 
     }
+<<<<<<< HEAD
     .title-price-dark{
         color: #000;;
 
     }
+=======
+>>>>>>> 1ec657a1903f0641b662a102cd344748b081b2e0
 
     .cta{
         margin-top: 0.7rem;
@@ -387,6 +390,7 @@ hr{
     }
 
     
+<<<<<<< HEAD
 }
 
 
@@ -394,3 +398,6 @@ script{
     display: none;
 }
 
+=======
+}
+>>>>>>> 1ec657a1903f0641b662a102cd344748b081b2e0
